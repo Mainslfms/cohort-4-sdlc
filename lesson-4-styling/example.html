@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS and JS Example</title>
+    <style>
+      .highlight {
+        color: white;
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="toggleButton">Toggle Highlight</button>
+    <p id="text">This is a sample text.</p>
+
+    <script>
+      const button = document.getElementById("toggleButton");
+      const text = document.getElementById("text");
+
+      button.addEventListener("click", () => {
+        text.classList.toggle("highlight");
+      });
+    </script>
+  </body>
+</html>
