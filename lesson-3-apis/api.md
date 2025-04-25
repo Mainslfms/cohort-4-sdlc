@@ -20,11 +20,28 @@ An API (Application Programming Interface) allows different software application
 2. Go to the "Console" tab.
 3. Copy and paste the following code to fetch data about a Pokémon:
 
+<!-- write notes on which function to use  -->
+
 ```javascript
-fetch("https://pokeapi.co/api/v2/pokemon/pikachu")
-  .then((response) => response.json())
-  .then((data) => console.log(data))
-  .catch((error) => console.error("Error:", error));
+const fetchPokemon = (pokemon) => {
+  fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`)
+    .then((response) => response.json())
+    .then((data) => console.log(data))
+    .catch((error) => console.error("Error:", error));
+};
+
+const fetchPokemonAsync = async (pokemon) => {
+  try {
+    const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`);
+    if (!response.ok) {
+      throw new Error("Network response was not ok");
+    }
+    const data = await response.json();
+    console.log(data);
+  } catch (error) {
+    console.error("Error:", error);
+  }
+};
 ```
 
 4. Press `Enter` to run the code.
