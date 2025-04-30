@@ -1,12 +1,9 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview of Single Page Applications (SPAs) and React
 
-Currently, two official plugins are available:
+Single Page Applications (SPAs) revolutionized web development by allowing dynamic content updates without requiring full page reloads. React, introduced by Facebook in 2013, became a popular library for building SPAs due to its component-based architecture, virtual DOM for efficient rendering. Simply put -- it allows you to use javascript to produce HTML and CSS on the fly.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Why Vite?
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Vite is a modern build tool that enhances the development experience for React and other frameworks. Can be used independent of React, but is often used with it. It offers fast hot module replacement (HMR), optimized builds, and a simplified configuration process. 

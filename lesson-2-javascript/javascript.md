@@ -22,9 +22,3 @@ JavaScript code can be embedded directly in HTML files or linked as external scr
 ## JavaScript in the Server
 JavaScript can also be used on the server side, primarily through **Node.js**. Node.js is a runtime environment that allows developers to run JavaScript code outside of a browser. It enables server-side scripting, allowing developers to build scalable and efficient web applications.
 
-## Exercise: Exploring JavaScript in the Browser
-1. **Open a Web Page**: Open any web page in your browser (e.g., Google, Wikipedia).
-2. **Open Developer Tools**: Right-click on the page and select "Inspect" or press `F12` to open the Developer Tools.
-3. **Go to the Console Tab**: Click on the "Console" tab in the Developer Tools.
-4. **Type JavaScript Code**: In the console, type `console.log("Hello, World!");` and press Enter.
-5. **Observe the Output**: You should see "Hello, World!" printed in the console.

@@ -6,13 +6,14 @@ In this exercise, you will learn how to use the Network tab in Chrome DevTools t
 
 1. **Open Chrome DevTools**:
     - Open Google Chrome.
+    - Navigate to  [MDN Web Docs](https://developer.mozilla.org/en-US/).
     - Right-click anywhere on the page and select **Inspect**, `Cmd+Option+I` (Mac).
 
 2. **Navigate to the Network Tab**:
     - In the DevTools panel, click on the **Network** tab.
 
 3. **Reload the Page**:
-    - Reload the webpage by pressing `F5` or `Ctrl+R` (Windows/Linux) or `Cmd+R` (Mac).
+    - Reload the webpage by pressing  `Cmd+R` (Mac).
     - Observe the network requests that populate in the Network tab.
 
 4. **Find the Status Code**:
